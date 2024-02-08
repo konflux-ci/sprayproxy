@@ -1,4 +1,4 @@
-module github.com/redhat-appstudio/sprayproxy
+module github.com/konflux-ci/sprayproxy
 
 go 1.19
 

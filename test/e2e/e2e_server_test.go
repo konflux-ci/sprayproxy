@@ -14,8 +14,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/redhat-appstudio/sprayproxy/pkg/server"
-	"github.com/redhat-appstudio/sprayproxy/test"
+	"github.com/konflux-ci/sprayproxy/pkg/server"
+	"github.com/konflux-ci/sprayproxy/test"
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
 )
