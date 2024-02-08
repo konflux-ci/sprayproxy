@@ -26,7 +26,7 @@ spec:
             defaultMode: 420
       containers:
         - name: sprayproxy
-          image: ko://github.com/redhat-appstudio/sprayproxy
+          image: ko://github.com/konflux-ci/sprayproxy
           args:
             - server
           env:

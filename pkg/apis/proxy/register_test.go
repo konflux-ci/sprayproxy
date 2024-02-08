@@ -9,7 +9,7 @@ import (
 	"testing"
 
 	"github.com/gin-gonic/gin"
-	"github.com/redhat-appstudio/sprayproxy/test"
+	"github.com/konflux-ci/sprayproxy/test"
 	"go.uber.org/zap"
 )
 
