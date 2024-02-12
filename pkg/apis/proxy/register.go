@@ -5,7 +5,7 @@ import (
 	"strings"
 
 	"github.com/gin-gonic/gin"
-	"github.com/redhat-appstudio/sprayproxy/pkg/apis/proxy/v1alpha1"
+	"github.com/konflux-ci/sprayproxy/pkg/apis/proxy/v1alpha1"
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
 )
