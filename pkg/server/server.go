@@ -17,8 +17,8 @@ import (
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
 
-	"github.com/redhat-appstudio/sprayproxy/pkg/apis/proxy"
-	"github.com/redhat-appstudio/sprayproxy/pkg/logger"
+	"github.com/konflux-ci/sprayproxy/pkg/apis/proxy"
+	"github.com/konflux-ci/sprayproxy/pkg/logger"
 )
 
 var zapLogger *zap.Logger

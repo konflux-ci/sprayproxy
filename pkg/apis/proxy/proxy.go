@@ -20,7 +20,7 @@ import (
 	"time"
 
 	"github.com/gin-gonic/gin"
-	"github.com/redhat-appstudio/sprayproxy/pkg/metrics"
+	"github.com/konflux-ci/sprayproxy/pkg/metrics"
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
 )
