@@ -14,7 +14,7 @@ spec:
     - name: revision
       value: "{{revision}}"
     - name: output-image
-      value: "quay.io/redhat-appstudio/pull-request-builds:sprayproxy-{{revision}}"
+      value: "quay.io/konflux-ci/sprayproxy/pull-request-builds:sprayproxy-{{revision}}"
   pipelineRef:
     params:
       - name: bundle
