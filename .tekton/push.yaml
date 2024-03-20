@@ -14,7 +14,7 @@ spec:
     - name: revision
       value: "{{revision}}"
     - name: output-image
-      value: "quay.io/konflux-ci/sprayproxy:{{revision}}"
+      value: "quay.io/redhat-appstudio/sprayproxy:{{revision}}"
     - name: infra-deployment-update-script
       value: |
         sed -i -E 's/[0-9a-f]{40}/{{ revision }}/g' components/sprayproxy/staging/kustomization.yaml
