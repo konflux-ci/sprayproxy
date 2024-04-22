@@ -11,7 +11,7 @@ metadata:
 spec:
   timeouts:
     pipeline: "0h20m0s"
-    tasks: "0h5m0s"
+    tasks: "0h10m0s"
   params:
     - name: repo_url
       value: "{{ repo_url }}"
